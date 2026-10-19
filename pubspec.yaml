@@ -1,0 +1,36 @@
+name: bms_pro_military
+description: BMS Pro - Enterprise Defense Grade Battalion Management System for Android
+publish_to: 'none'
+version: 2.4.0+24
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.1.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  http: ^1.2.2
+  mobile_scanner: ^5.2.3
+  qr_flutter: ^4.1.0
+  local_auth: ^2.3.0
+  firebase_core: ^3.4.0
+  firebase_messaging: ^15.1.0
+  firebase_crashlytics: ^4.1.0
+  encrypt: ^5.0.3
+  crypto: ^3.0.5
+  intl: ^0.19.0
+  path_provider: ^2.1.4
+  share_plus: ^10.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
